@@ -1,9 +1,9 @@
-$blue : #4A8188;
+$base : #4A8188;
 $spacing : 10px;
+$blur: 10px;
 
 .body{
   background-color: $blue;
-  text-align: center;
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
@@ -14,9 +14,14 @@ img{
   width: 50%;
   height: 50%;
   padding: $spacing;
-  background: $blue;
+  background: $base;
+  filter: $blur;
 }
 
 .controls {
   margin-bottom: 50px;
+}
+
+h2{
+  color: $base;
 }
