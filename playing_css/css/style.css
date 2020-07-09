@@ -1,2 +1,16 @@
-.clr {
-  color: red; }
+.body {
+  background-color: #4A8188;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: white; }
+
+img {
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  background: #4A8188; }
+
+.controls {
+  margin-bottom: 50px; }

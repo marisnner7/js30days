@@ -1,7 +1,22 @@
-$colortype : red;
+$blue : #4A8188;
+$spacing : 10px;
 
-.clr {
+.body{
+  background-color: $blue;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: white;
+}
 
-color: $colortype
+img{
+  width: 50%;
+  height: 50%;
+  padding: $spacing;
+  background: $blue;
+}
 
+.controls {
+  margin-bottom: 50px;
 }
