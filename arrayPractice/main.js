@@ -112,17 +112,19 @@ const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bik
 
     const filterComment = comments.find(single => {
         if(single.id === 823423){
-        console.log(single.text) 
+        // console.log(single.text) 
       }
       });
       
     // Array.prototype.findIndex()
     // Find the comment with this ID
 
-    const findComment = comments.findIndex( filter =>{
-      if(filter){
-
-      }
-    });
+    const findComment = comments.findIndex( comment =>
+      comment.id === 823423 )
     // delete the comment with the ID of 823423
-    
+    console.log(findComment)
+
+    const newComments = [
+      ...comments.slice(0, findComment),
+      ...comments.splice(findComment +1 )
+    ];
